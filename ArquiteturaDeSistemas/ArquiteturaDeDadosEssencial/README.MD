@@ -45,11 +45,11 @@
     - COMMENT
     - RENAME
 - DQL - Data Query Language
-    - SELECT 
+    - SELECT - extracts data from database 
 - DML - Data Manipulation Language
-    - INSERT
-    - UPDATE
-    - DELETE
+    - INSERT INTO - inserts new data into a database
+    - UPDATE - updates data in a database
+    - DELETE - deletes data from a database
 - DCL - Data Control Language
     - GRANT
     - REVOKE
@@ -90,11 +90,18 @@ Select Codigo,Nome from Cliente
 - Consistência - Unicidade de chaves, restrições de integridade lógica, etc.
 - Isolamento - Várias transações podem acessar simultaneamente o mesmo registro (ou parte do registro)
 - Durabilidade - Depois do Commit, mesmo com erros, queda de energia, etc, as alterações devem ser aplicadas
+## SGDBs-R
+- Oracle
+- Microsoft SQL Server
+- IMB DB2
+- PostgreSQL
+- MySQL
+- SQLite
 ## 🧷Links usados para pesquisa e estudo
 ### [SQL Online Compiler](https://sqliteonline.com)
-### Fundamentos de Armazenamento e Manipulação de Dados [IME/USP](https://www.ime.usp.br/~andrers/aulas/bd2005-1/)
-### TCC - Bancos de Dados Relacionais [FATEC](http://www.fatecsp.br/dti/tcc/tcc0025.pdf)
-### Conceitos Fundamentais de Banco de Dados [DevMedia](https://www.devmedia.com.br/conceitos-fundamentais-de-banco-de-dados/1649)
-MER e DER: Modelagem de Bancos de Dados [DevMedia](https://www.devmedia.com.br/mer-e-der-modelagem-de-bancos-de-dados/14332)
-### SQL: Aprenda a utilizar a chave primária e a chave estrangeira [DevMedia](https://www.devmedia.com.br/sql-aprenda-a-utilizar-a-chave-primaria-e-a-chave-estrangeira/37636)
+### Fundamentos de Armazenamento e Manipulação de Dados  - [IME/USP](https://www.ime.usp.br/~andrers/aulas/bd2005-1/)
+### TCC - Bancos de Dados Relacionais - [FATEC](http://www.fatecsp.br/dti/tcc/tcc0025.pdf)
+### Conceitos Fundamentais de Banco de Dados - [DevMedia](https://www.devmedia.com.br/conceitos-fundamentais-de-banco-de-dados/1649)
+MER e DER: Modelagem de Bancos de Dados - [DevMedia](https://www.devmedia.com.br/mer-e-der-modelagem-de-bancos-de-dados/14332)
+### SQL: Aprenda a utilizar a chave primária e a chave estrangeira - [DevMedia](https://www.devmedia.com.br/sql-aprenda-a-utilizar-a-chave-primaria-e-a-chave-estrangeira/37636)
 ## Bibliografia para Estudo
